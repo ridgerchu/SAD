@@ -10,7 +10,7 @@
 
 ## Introduction
 
-Spiking Autonomous Driving (SAD) is the first end-to-end autonomous driving system built entirely with Spiking Neural Networks (SNNs). It integrates perception, prediction, and planning modules into a unified neuromorphic framework. SAD achieves competitive performance compared to state-of-the-art ANN methods on the nuScenes dataset while demonstrating significant energy efficiency.
+Spiking Autonomous Driving (SAD) is the first end-to-end autonomous driving system built entirely with Spiking Neural Networks (SNNs). It integrates perception, prediction, and planning modules into a unified neuromorphic framework.
 
 ### Key Features
 
