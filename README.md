@@ -18,7 +18,6 @@ Spiking Autonomous Driving (SAD) is the first end-to-end autonomous driving syst
 - Perception module constructs spatio-temporal Bird's Eye View (BEV) representation from multi-view cameras using SNNs
 - Prediction module forecasts future states using a novel dual-pathway SNN
 - Planning module generates safe trajectories considering occupancy prediction, traffic rules, and ride comfort
-- Achieves performance comparable to SOTA ANN methods on nuScenes with substantially lower energy consumption
 
 ## System Overview
 
