@@ -67,7 +67,7 @@ bash scripts/train_plan.sh ${configs} ${dataroot} ${pretrained}
 If you find SAD useful in your work, please cite the following source:
 
 ```
-@article{zhu2023autonomous,
+@article{zhu2024autonomous,
         title = {Autonomous Driving with Spiking Neural Networks},
         author = {Rui-Jie Zhu and Ziqing Wang and Leilani Gilpin and Jason K. Eshraghian},
         journal = {arXiv preprint arXiv:2405.19687},
