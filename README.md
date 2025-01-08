@@ -4,7 +4,7 @@
 
 </div>
 
-<h2 align="center">Spiking Autonomous Driving (SAD): End-to-End Autonomous Driving with Spiking Neural Networks</h2>
+<h2 align="center">[NeurIPS 2024] Spiking Autonomous Driving (SAD): End-to-End Autonomous Driving with Spiking Neural Networks</h2>
 
 <h5 align="center"> If you find our project useful, please give us a star ⭐ on GitHub! </h5>
 
@@ -61,16 +61,25 @@ bash scripts/train_prediction.sh ${configs} ${dataroot} ${pretrained}
 bash scripts/train_plan.sh ${configs} ${dataroot} ${pretrained}
 ```
 
+### Evaluation
+You can evaluate the model's performance directly using our provided evaluation script:
+```
+# Evaluate planning performance
+bash scripts/eval_plan.sh
+```
+The evaluation script will automatically load the necessary configurations and model weights. Note that while the model weights file (`model.pth.tar`) doesn't contain hyperparameters directly, they will be loaded from the configuration files during evaluation.
 
 ## Citation
 
 If you find SAD useful in your work, please cite the following source:
 
 ```
-@article{zhu2024autonomous,
-        title = {Autonomous Driving with Spiking Neural Networks},
-        author = {Rui-Jie Zhu and Ziqing Wang and Leilani Gilpin and Jason K. Eshraghian},
-        journal = {arXiv preprint arXiv:2405.19687},
-        year    = {2024}
+@inproceedings{
+zhu2024autonomous,
+title={Autonomous Driving with Spiking Neural Networks},
+author={Rui-Jie Zhu and Ziqing Wang and Leilani H. Gilpin and Jason Eshraghian},
+booktitle={The Thirty-eighth Annual Conference on Neural Information Processing Systems},
+year={2024},
+url={https://openreview.net/forum?id=95VyH4VxN9}
 }
 ```
