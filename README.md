@@ -60,15 +60,6 @@ bash scripts/train_prediction.sh ${configs} ${dataroot} ${pretrained}
 # Entire model end-to-end training
 bash scripts/train_plan.sh ${configs} ${dataroot} ${pretrained}
 ```
-
-### Evaluation
-You can evaluate the model's performance directly using our provided evaluation script:
-```
-# Evaluate planning performance
-bash scripts/eval_plan.sh
-```
-The evaluation script will automatically load the necessary configurations and model weights. Note that while the model weights file (`model.pth.tar`) doesn't contain hyperparameters directly, they will be loaded from the configuration files during evaluation.
-
 ## Citation
 
 If you find SAD useful in your work, please cite the following source:
